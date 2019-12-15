@@ -1,0 +1,8 @@
+#!/bin/bash
+echo -n "Enter your ip addres : "
+read ip
+clear
+echo "	IP INFO "
+echo " ______________________________"
+curl -s http://ipinfo.io/$ip | sed "s/\"//g; s/^ $//g; s/\:/ :/g; s/readme.*//g" | tr -d '{}'
+
