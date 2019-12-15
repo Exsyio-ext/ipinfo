@@ -1,4 +1,9 @@
 #!/bin/bash
+clear
+echo " # facebook.com/virus.system007"
+echo " # @rikkimartin.rin"
+echo " # YT Exsyio Tech"
+echo ""
 echo -n "Enter your ip addres : "
 read ip
 clear
